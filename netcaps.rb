@@ -4,6 +4,7 @@ class Netcaps < Formula
   url "https://github.com/forcequitOS/netcaps/archive/refs/tags/v1.3.1.tar.gz"
   sha256 "2b020a618af299d078cb1a7b5dc505d8f16432258cbc8237c710b3819528c8e7"
   license "MIT"
+  version "1.3.1"
 
   depends_on :xcode => :build
   depends_on macos: :catalina # I have no clue if it even works on anything lower than Tahoe, but YOLO I guess. 
