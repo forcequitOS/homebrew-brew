@@ -19,9 +19,9 @@ class Netcaps < Formula
   
   def caveats
   	<<~EOS
-  	Thanks for trying netcaps!
-    To run netcaps as a global background service, run: sudo brew services start netcaps
-    To run netcaps as a background service for this user only, run: brew services start netcaps
+Thanks for trying netcaps!
+      - To run netcaps as a global background service, run: sudo brew services start netcaps
+      - To run netcaps as a background service for this user only, run: brew services start netcaps
   	EOS
   end
 
