@@ -26,7 +26,7 @@ Thanks for trying netcaps!
       - To run netcaps as a background service for this user only, run:
           brew services start netcaps
       
-Grant Input Monitoring permissions to netcaps in System Settings after enabling the service, then run:
+Grant Input Monitoring permissions after enabling the service, then run:
     (sudo) brew services restart netcaps
 to load the service
   	EOS
