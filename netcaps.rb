@@ -1,10 +1,10 @@
 class Netcaps < Formula
   desc "netcaps - Turn your Caps Lock LED into a network activity light"
   homepage "https://github.com/forcequitOS/netcaps"
-  url "https://github.com/forcequitOS/netcaps/archive/refs/tags/v1.3.1.tar.gz"
-  sha256 "2b020a618af299d078cb1a7b5dc505d8f16432258cbc8237c710b3819528c8e7"
+  url "https://github.com/forcequitOS/netcaps/archive/refs/tags/vtest5.tar.gz"
+  sha256 "14ede9d91850498d67e4c80ae41828088b2b37ab68ba19ccf662e8a3425dc4bf"
   license "MIT"
-  version "1.3.1"
+  version "test5"
 
   depends_on macos: :catalina # I have no clue if it even works on anything lower than Tahoe, but YOLO I guess. 
 
