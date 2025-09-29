@@ -6,6 +6,7 @@ class Netcaps < Formula
   license "MIT"
 
   depends_on :xcode => :build
+  depends_on macos: ">= :10.15.0" # I have no clue if it even works on anything lower than Tahoe, but YOLO I guess. 
 
   def install
     system "swift", "build", "-c", "release", "--disable-sandbox"
