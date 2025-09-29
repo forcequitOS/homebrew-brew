@@ -1,8 +1,8 @@
 class Netcaps < Formula
   desc "netcaps - Turn your Caps Lock LED into a network activity light"
   homepage "https://github.com/forcequitOS/netcaps"
-  url "https://github.com/forcequitOS/netcaps/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "20251fae5998621826b38f2061e1e89baf7367019b673736e9f45d63242f5a1d"
+  url "https://github.com/forcequitOS/netcaps/archive/refs/tags/v1.1.1.tar.gz"
+  sha256 "7d08e02fabf4356fe0242f4d5fce8ccae35749e372f9c46eb524077d4386ab2f"
   license "MIT"
 
   depends_on :xcode => :build
