@@ -6,7 +6,6 @@ class Netcaps < Formula
   license "MIT"
   version "1.3.1"
 
-  depends_on :xcode => :build
   depends_on macos: :catalina # I have no clue if it even works on anything lower than Tahoe, but YOLO I guess. 
 
   def install
