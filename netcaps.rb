@@ -21,10 +21,14 @@ class Netcaps < Formula
   	<<~EOS
 Thanks for trying netcaps!
 
-      - To run netcaps as a global background service, run: sudo brew services start netcaps
-      - To run netcaps as a background service for this user only, run: brew services start netcaps
+      - To run netcaps as a global background service, run:
+          sudo brew services start netcaps
+      - To run netcaps as a background service for this user only, run:
+          brew services start netcaps
       
-After setting up the background service, grant Input Monitoring permissions to netcaps, run (sudo) brew services restart netcaps, and enjoy the show.
+Grant Input Monitoring permissions to netcaps in System Settings after enabling the service, then run:
+    (sudo) brew services restart netcaps
+to load the service
   	EOS
   end
 
