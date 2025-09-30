@@ -1,10 +1,10 @@
 class Discaps < Formula
   desc "discaps - Turn your Caps Lock LED into a disk activity light"
   homepage "https://github.com/forcequitOS/discaps"
-  url "https://github.com/forcequitOS/discaps/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "898543b322ed7e45417cdb69bb80cd2aa96ed5efe1a819faa5cd731e68c4a915"
+  url "https://github.com/forcequitOS/discaps/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "b023932f9aa4fbc3ac06579f8189742f358ae33468c3b49a2b07f99f9bc3d35a"
   license "MIT"
-  version "1.0.0"
+  version "1.1.0"
 
   depends_on macos: :catalina # I still have no clue if THIS even works on anything lower than Tahoe, but YOLO I guess. 
 
