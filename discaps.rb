@@ -2,7 +2,7 @@ class Discaps < Formula
   desc "discaps - Turn your Caps Lock LED into a disk activity light"
   homepage "https://github.com/forcequitOS/discaps"
   url "https://github.com/forcequitOS/discaps/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "b023932f9aa4fbc3ac06579f8189742f358ae33468c3b49a2b07f99f9bc3d35a"
+  sha256 "0993c42f740f5daf2496268ad169d8ff573f5e579e2f8348e940cfa8ec803176"
   license "MIT"
   version "1.1.0"
 
